@@ -1,5 +1,44 @@
+$main-color: whitesmoke;
 
 
+
+
+body {
+    background-color: $main-color;
+}
 p {
     margin: 50px;
+    font-size: 30px;
+    background-color: $main-color;
+    text-align: center;
+}
+
+strong {
+    margin-left: 10px;
+}
+
+h1 {
+    text-align: center;
+    background-color: $main-color;
+}
+
+h6 {
+    background-color: $main-color;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+nav {
+    margin-left: auto;
+    margin-right: auto;
+    display: block; /* Ensure the nav is a block-level element */
+    width: fit-content; /* Shrinks the element to fit its content */
+}
+
+#userLinks, #userShow {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: fit-content;
 }
